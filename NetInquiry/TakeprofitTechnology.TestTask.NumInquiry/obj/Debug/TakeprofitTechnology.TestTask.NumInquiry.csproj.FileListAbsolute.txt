@@ -1,0 +1,7 @@
+C:\C#\NetInquiry\TakeprofitTechnology.TestTask.NumInquiry\bin\Debug\TakeprofitTechnology.TestTask.NumInquiry.exe.config
+C:\C#\NetInquiry\TakeprofitTechnology.TestTask.NumInquiry\bin\Debug\TakeprofitTechnology.TestTask.NumInquiry.exe
+C:\C#\NetInquiry\TakeprofitTechnology.TestTask.NumInquiry\bin\Debug\TakeprofitTechnology.TestTask.NumInquiry.pdb
+C:\C#\NetInquiry\TakeprofitTechnology.TestTask.NumInquiry\obj\Debug\TakeprofitTechnology.TestTask.NumInquiry.csprojAssemblyReference.cache
+C:\C#\NetInquiry\TakeprofitTechnology.TestTask.NumInquiry\obj\Debug\TakeprofitTechnology.TestTask.NumInquiry.csproj.CoreCompileInputs.cache
+C:\C#\NetInquiry\TakeprofitTechnology.TestTask.NumInquiry\obj\Debug\TakeprofitTechnology.TestTask.NumInquiry.exe
+C:\C#\NetInquiry\TakeprofitTechnology.TestTask.NumInquiry\obj\Debug\TakeprofitTechnology.TestTask.NumInquiry.pdb

@@ -1,0 +1,6 @@
+C:\C#\NetInquiry\TestOneNumber\bin\Debug\TestOneNumber.exe.config
+C:\C#\NetInquiry\TestOneNumber\bin\Debug\TestOneNumber.exe
+C:\C#\NetInquiry\TestOneNumber\bin\Debug\TestOneNumber.pdb
+C:\C#\NetInquiry\TestOneNumber\obj\Debug\TestOneNumber.csproj.CoreCompileInputs.cache
+C:\C#\NetInquiry\TestOneNumber\obj\Debug\TestOneNumber.exe
+C:\C#\NetInquiry\TestOneNumber\obj\Debug\TestOneNumber.pdb

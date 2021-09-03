@@ -1,0 +1,7 @@
+C:\C#\NetInquiry\NetInquiry\bin\Debug\NetInquiry.exe.config
+C:\C#\NetInquiry\NetInquiry\bin\Debug\NetInquiry.exe
+C:\C#\NetInquiry\NetInquiry\bin\Debug\NetInquiry.pdb
+C:\C#\NetInquiry\NetInquiry\obj\Debug\Test.csprojAssemblyReference.cache
+C:\C#\NetInquiry\NetInquiry\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\C#\NetInquiry\NetInquiry\obj\Debug\NetInquiry.exe
+C:\C#\NetInquiry\NetInquiry\obj\Debug\NetInquiry.pdb

@@ -1,0 +1,7 @@
+C:\C#\NetInquiry\TakeprofitTechnology.Answer\bin\Debug\TakeprofitTechnology.Answer.exe.config
+C:\C#\NetInquiry\TakeprofitTechnology.Answer\bin\Debug\TakeprofitTechnology.Answer.exe
+C:\C#\NetInquiry\TakeprofitTechnology.Answer\bin\Debug\TakeprofitTechnology.Answer.pdb
+C:\C#\NetInquiry\TakeprofitTechnology.Answer\obj\Debug\TakeprofitTechnology.Answer.csproj.CoreCompileInputs.cache
+C:\C#\NetInquiry\TakeprofitTechnology.Answer\obj\Debug\TakeprofitTechnology.Answer.exe
+C:\C#\NetInquiry\TakeprofitTechnology.Answer\obj\Debug\TakeprofitTechnology.Answer.pdb
+C:\C#\NetInquiry\TakeprofitTechnology.Answer\obj\Debug\TakeprofitTechnology.Answer.csprojAssemblyReference.cache
