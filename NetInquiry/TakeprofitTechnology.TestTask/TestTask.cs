@@ -12,8 +12,8 @@ namespace TakeprofitTechnology.TestTask
     {
         private const string server = "88.212.241.115"; //Сервер
         private const int port = 2013; //Порт
-        private const int flow = 10; //Количество потоков
-        public static double[] arrayAnswer = new double[10]; //Массив ответов сервера
+        private const int flow = 500; //Количество потоков
+        public static double[] arrayAnswer = new double[2018]; //Массив ответов сервера
 
         private static void numRequest(object numReq)
         {
@@ -24,7 +24,7 @@ namespace TakeprofitTechnology.TestTask
                 int order = 0;
                 while ((data[order] != 10) && (order < data.Length))
                 {
-                    Console.Write((char) data[order]);
+                    //Console.Write((char) data[order]);
                     if ((data[order] >= 48) && (data[order] <= 57))
                     {
                         numAnsw = numAnsw * 10 + (data[order] - 48);
@@ -45,9 +45,9 @@ namespace TakeprofitTechnology.TestTask
                     Console.WriteLine("\nОтвет сервера на число {0}: {1}", numReq, numAnsw);
                 }
             }
-            catch (Exception ex)
+            catch
             {
-                Console.WriteLine(ex);
+                //Console.WriteLine(ex);
                 Thread.Sleep(20000);
                 numRequest(numReq);
             }
@@ -71,7 +71,12 @@ namespace TakeprofitTechnology.TestTask
             {
                 while (myThread[numFlow].IsAlive)
                 {
-                    if (numFlow < myThread.Length - 1) numFlow++; else numFlow = 0;
+                    if (numFlow < myThread.Length - 1) numFlow++;
+                    else
+                    {
+                        numFlow = 0;
+                        Thread.Sleep(30000);
+                    }
                 }
                 Console.WriteLine("Число запроса: {0}\nНомер потока: {1}", i, numFlow);
                 myThread[numFlow] = new Thread(new ParameterizedThreadStart(numRequest));
@@ -87,7 +92,6 @@ namespace TakeprofitTechnology.TestTask
                 {
                     if (myThread[i].IsAlive) flowStop = true;
                 }
-                Thread.Sleep(5000);
                 if (flowStop)
                 {
                     Console.WriteLine("Работа продолжается...");
@@ -96,11 +100,14 @@ namespace TakeprofitTechnology.TestTask
                 {
                     Console.WriteLine("Работа окончена...");
                 }
+                Thread.Sleep(10000);
             }
 
             //Вычисление медианы и проверка значения на сервере
             double med = MedianaCalc.Mediana(arrayAnswer);
+            Console.WriteLine("Check " + med.ToString());
             Console.WriteLine(Encoding.GetEncoding("koi8r").GetString(Connection.tcpRequest("Check " + med.ToString(), server, port)));
+            //Console.WriteLine(Encoding.GetEncoding("koi8r").GetString(Connection.tcpRequest("1", server, port)));
 
             Console.ReadKey();
 
