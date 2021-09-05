@@ -56,6 +56,19 @@ namespace TestOneNumber
             }
 
 
+
+            //byte[] data = Connection.tcpRequest("Register", server, port);
+            //byte[] data2 = new byte[data.Length - 8];
+            //for (int i = 0; i < data2.Length; i++)
+            //{
+            //    data2[i] = data[i + 3];
+            //    Console.WriteLine("{0} - {1}", data2[i], (char)data[i]);
+            //}
+
+            //string str = Encoding.GetEncoding("koi8r").GetString(data2) + "|1";
+            //Console.WriteLine("\n" + str);
+
+
             Console.ReadKey();
 
         }

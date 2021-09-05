@@ -50,7 +50,7 @@ namespace TakeprofitTechnology.Answer
                     count++;
                 }
 
-                //Console.Write(Encoding.GetEncoding("koi8r").GetString(dataRead));
+                Console.Write(Encoding.GetEncoding("koi8r").GetString(dataRead));
             }
             catch
             {

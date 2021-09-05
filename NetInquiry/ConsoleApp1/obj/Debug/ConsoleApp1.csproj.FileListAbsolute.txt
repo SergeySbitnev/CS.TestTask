@@ -1,0 +1,7 @@
+C:\CS.TestTask\NetInquiry\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\CS.TestTask\NetInquiry\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\CS.TestTask\NetInquiry\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\CS.TestTask\NetInquiry\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\CS.TestTask\NetInquiry\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\CS.TestTask\NetInquiry\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\CS.TestTask\NetInquiry\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

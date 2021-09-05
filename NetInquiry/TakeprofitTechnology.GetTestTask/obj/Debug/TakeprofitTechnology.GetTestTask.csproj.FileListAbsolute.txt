@@ -5,3 +5,10 @@ C:\C#\NetInquiry\TakeprofitTechnology.GetTestTask\obj\Debug\TakeprofitTechnology
 C:\C#\NetInquiry\TakeprofitTechnology.GetTestTask\obj\Debug\TakeprofitTechnology.GetTestTask.csproj.CoreCompileInputs.cache
 C:\C#\NetInquiry\TakeprofitTechnology.GetTestTask\obj\Debug\TakeprofitTechnology.GetTestTask.exe
 C:\C#\NetInquiry\TakeprofitTechnology.GetTestTask\obj\Debug\TakeprofitTechnology.GetTestTask.pdb
+C:\CS.TestTask\NetInquiry\TakeprofitTechnology.GetTestTask\bin\Debug\TakeprofitTechnology.GetTestTask.exe.config
+C:\CS.TestTask\NetInquiry\TakeprofitTechnology.GetTestTask\bin\Debug\TakeprofitTechnology.GetTestTask.exe
+C:\CS.TestTask\NetInquiry\TakeprofitTechnology.GetTestTask\bin\Debug\TakeprofitTechnology.GetTestTask.pdb
+C:\CS.TestTask\NetInquiry\TakeprofitTechnology.GetTestTask\obj\Debug\TakeprofitTechnology.GetTestTask.csproj.AssemblyReference.cache
+C:\CS.TestTask\NetInquiry\TakeprofitTechnology.GetTestTask\obj\Debug\TakeprofitTechnology.GetTestTask.csproj.CoreCompileInputs.cache
+C:\CS.TestTask\NetInquiry\TakeprofitTechnology.GetTestTask\obj\Debug\TakeprofitTechnology.GetTestTask.exe
+C:\CS.TestTask\NetInquiry\TakeprofitTechnology.GetTestTask\obj\Debug\TakeprofitTechnology.GetTestTask.pdb
