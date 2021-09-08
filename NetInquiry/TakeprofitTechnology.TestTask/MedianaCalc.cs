@@ -14,7 +14,7 @@ namespace TakeprofitTechnology.TestTask
             int size = arr.Length;
             if (arr.Length % 2 == 0)
             {
-                return (arr[size / 2] + arr[size / 2 + 1]) * 0.5;
+                return (arr[size / 2] + arr[size / 2 - 1]) * 0.5;
             }
             else
             {

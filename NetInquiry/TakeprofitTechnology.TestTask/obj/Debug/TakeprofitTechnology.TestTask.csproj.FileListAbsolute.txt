@@ -1,7 +1,7 @@
 C:\CS.TestTask\NetInquiry\TakeprofitTechnology.TestTask\bin\Debug\TakeprofitTechnology.TestTask.exe.config
 C:\CS.TestTask\NetInquiry\TakeprofitTechnology.TestTask\bin\Debug\TakeprofitTechnology.TestTask.exe
 C:\CS.TestTask\NetInquiry\TakeprofitTechnology.TestTask\bin\Debug\TakeprofitTechnology.TestTask.pdb
-C:\CS.TestTask\NetInquiry\TakeprofitTechnology.TestTask\obj\Debug\TakeprofitTechnology.TestTask.csproj.AssemblyReference.cache
 C:\CS.TestTask\NetInquiry\TakeprofitTechnology.TestTask\obj\Debug\TakeprofitTechnology.TestTask.csproj.CoreCompileInputs.cache
 C:\CS.TestTask\NetInquiry\TakeprofitTechnology.TestTask\obj\Debug\TakeprofitTechnology.TestTask.exe
 C:\CS.TestTask\NetInquiry\TakeprofitTechnology.TestTask\obj\Debug\TakeprofitTechnology.TestTask.pdb
+C:\CS.TestTask\NetInquiry\TakeprofitTechnology.TestTask\obj\Debug\TakeprofitTechnology.TestTask.csprojAssemblyReference.cache

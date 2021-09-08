@@ -57,57 +57,57 @@ namespace TakeprofitTechnology.TestTask
         {
 
 
-            //Массив потоков
-            Thread[] myThread = new Thread[flow];
-            for (int i = 0; i < myThread.Length; i++)
-            {
-                myThread[i] = new Thread(new ParameterizedThreadStart(numRequest));
-            }
+            ////Массив потоков
+            //Thread[] myThread = new Thread[flow];
+            //for (int i = 0; i < myThread.Length; i++)
+            //{
+            //    myThread[i] = new Thread(new ParameterizedThreadStart(numRequest));
+            //}
 
-            //Счетчик потоков
-            int numFlow = 0;
-            //Запуск потоков на отправку запросов
-            for (int i = 1; i <= arrayAnswer.Length; i++)
-            {
-                while (myThread[numFlow].IsAlive)
-                {
-                    if (numFlow < myThread.Length - 1) numFlow++;
-                    else
-                    {
-                        numFlow = 0;
-                        Thread.Sleep(30000);
-                    }
-                }
-                Console.WriteLine("Число запроса: {0}\nНомер потока: {1}", i, numFlow);
-                myThread[numFlow] = new Thread(new ParameterizedThreadStart(numRequest));
-                myThread[numFlow].Start(i);
-            }
+            ////Счетчик потоков
+            //int numFlow = 0;
+            ////Запуск потоков на отправку запросов
+            //for (int i = 1; i <= arrayAnswer.Length; i++)
+            //{
+            //    while (myThread[numFlow].IsAlive)
+            //    {
+            //        if (numFlow < myThread.Length - 1) numFlow++;
+            //        else
+            //        {
+            //            numFlow = 0;
+            //            Thread.Sleep(30000);
+            //        }
+            //    }
+            //    Console.WriteLine("Число запроса: {0}\nНомер потока: {1}", i, numFlow);
+            //    myThread[numFlow] = new Thread(new ParameterizedThreadStart(numRequest));
+            //    myThread[numFlow].Start(i);
+            //}
 
-            //Ожидаем завершения всех потоков
-            bool flowStop = true;
-            while (flowStop)
-            {
-                flowStop = false;
-                for (int i = 0; i < myThread.Length; i++)
-                {
-                    if (myThread[i].IsAlive) flowStop = true;
-                }
-                if (flowStop)
-                {
-                    Console.WriteLine("Работа продолжается...");
-                }
-                else
-                {
-                    Console.WriteLine("Работа окончена...");
-                }
-                Thread.Sleep(10000);
-            }
+            ////Ожидаем завершения всех потоков
+            //bool flowStop = true;
+            //while (flowStop)
+            //{
+            //    flowStop = false;
+            //    for (int i = 0; i < myThread.Length; i++)
+            //    {
+            //        if (myThread[i].IsAlive) flowStop = true;
+            //    }
+            //    if (flowStop)
+            //    {
+            //        Console.WriteLine("Работа продолжается...");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Работа окончена...");
+            //    }
+            //    Thread.Sleep(10000);
+            //}
 
-            //Вычисление медианы и проверка значения на сервере
-            double med = MedianaCalc.Mediana(arrayAnswer);
-            Console.WriteLine("Check " + med.ToString());
-            Console.WriteLine(Encoding.GetEncoding("koi8r").GetString(Connection.tcpRequest("Check " + med.ToString(), server, port)));
-            //Console.WriteLine(Encoding.GetEncoding("koi8r").GetString(Connection.tcpRequest("1", server, port)));
+            ////Вычисление медианы и проверка значения на сервере
+            //double med = MedianaCalc.Mediana(arrayAnswer);
+            //Console.WriteLine("Check " + med.ToString());
+            //Console.WriteLine(Encoding.GetEncoding("koi8r").GetString(Connection.tcpRequest("Check " + med.ToString(), server, port)));
+            Console.WriteLine(Encoding.GetEncoding("koi8r").GetString(Connection.tcpRequest("1", server, port)));
 
             Console.ReadKey();
 
